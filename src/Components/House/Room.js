@@ -9,13 +9,13 @@ const Room = () => {
     const lightsOn = ()=> setLighting(!isLighting)
     return (
        <div className = "parent1">
-           <div style = {isLighting ? {backgroundColor:"black"} : {backgroundColor: "blue"}}></div>
+           <div style = {isLighting ? {backgroundColor:"red"} : {backgroundColor: "blue"}}></div>
           <label>
               <input type="checkbox" onClick={lightsOn}/>
               Lights!
           </label>
 
-     <Wall></Wall>
+     <Wall/>
    
       
     

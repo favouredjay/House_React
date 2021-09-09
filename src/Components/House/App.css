@@ -14,9 +14,9 @@
       margin-left: 25%
   }
   .pillar{
-      background-color:black;
+      
       clip-path:  fill-box circle(25% at 25% 25%);
-      color:white;
+      color:rgb(122, 29, 29);
       margin-right: 95%;
       height: 10%;
       padding-top: 20%;
@@ -28,30 +28,30 @@
           display: inline-block;
           margin-left: 30%;
       }
-      .window{
+       /* .window{
           background-color: rgb(184, 56, 56);
           text-align: center;
           margin-left: 90%;
           margin-right: 6%;
           padding-bottom: 15%;
           margin-bottom:1%
-          }
+          }  */
         .door{
-            background-color:brown;
+
             text-align: center;
             margin-left: 30%;
             margin-right: 60%;
             padding-bottom: 15%;
             
 
-        }
+        } */
         .wall{
             background-color:bisque;
             
         }
         .wall{
-            display: flex;
-        }
+            display: flex; 
+         }
         .window{
             flex: 2;
             flex-direction: row;
@@ -65,9 +65,9 @@
         .window{
             padding:5%
         }
-        .Door{
+        /* .Door{
           padding:2%  
-        }
+        } */
         .decking{
             background-color: black;
             color: white;
